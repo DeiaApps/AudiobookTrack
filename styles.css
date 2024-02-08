@@ -1,0 +1,55 @@
+body {
+    background-image:linear-gradient(to right,#a0c2cb,#068bb8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:#FCF6F0;
+}
+
+.container-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.music-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#track-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 0cap1.5rem;
+}
+#track-infos > :nth-child(2){
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+#before, #next{
+    font-size: 3rem;
+}
+
+#play-pause{
+    font-size: 4rem;
+}
+
+#container-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

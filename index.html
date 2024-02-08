@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook Track by AAF</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-96x96.png">
+ 
+    <!-- Ícones da Apple Touch -->
+    <!-- Ícones para dispositivos Android -->
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+ 
+    <!-- Manifesto da Web -->
+    <!-- Meta informações para Windows -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+ 
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+</head>
+<body>
+  <div class="container-app">
+     <img src="./images/dom-casmurro.jpg" alt="Capa do livro Dom Casmurro"></img>
+     <audio id="audio-section" src="./books/dom-casmurro/1.mp3" preload="auto"></audio>
+        <div id="track-infos">
+          <div id="section">Seção 1 - Capítulos I a V</div>
+            <div id="author-name">Machado de Assis</div>
+        </div>
+        <div id="container-buttons">
+            <button id="before" class="bi bi-skip-start-fill"></button>
+            <button id="play-pause" class="bi bi-play-circle-fill"></button>
+            <button id="next" class="bi bi-skip-end-fill"></button>
+        </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
