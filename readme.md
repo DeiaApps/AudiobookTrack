@@ -1,7 +1,6 @@
-<div style="display: flex; align-items: center;">
-# Audiobook Track
-<<img src="./icons/favicon-32x32.png" alt="AudiobookTrack Logo" width="32" height="32">
-</div>
+
+# Audiobook Track <img src="./icons/favicon-32x32.png" alt="AudiobookTrack Logo" width="32" height="32">
+
 
 ## Description 📚
 
@@ -32,7 +31,7 @@ The AudiobookTrack page has an attractive design with the book cover image centr
 
 ## GitHub Pages 🔗
 
-The AudiobookTrack project is hosted on GitHub Pages. You can access it [here](link_to_your_project_on_github_pages).
+The AudiobookTrack project is hosted on GitHub Pages. You can access it [here](https://deiaapps.github.io/AudiobookTrack/).
 
 ## Contribution 🌟
 
